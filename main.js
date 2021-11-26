@@ -21,7 +21,7 @@ console.log("model is loaded");
   function checksnapshot()
   {
     img = document.getElementById('captured_image');
-    classifier.clasify(img, gotResult);
+    classifier.classify(img, gotResult);
   }
 
 function modelLoaded(){
